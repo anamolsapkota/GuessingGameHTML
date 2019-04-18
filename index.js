@@ -2,7 +2,7 @@ function submitGuess(){
 	
 	var ans = randomNumber();
 	var guess = document.getElementById("initGuess").value;
-	alert(ans);
+	//alert(ans);
 
 	checkAns(ans, guess);
 
