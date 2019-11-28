@@ -28,8 +28,8 @@ function checkAns(num, guess){
 	 	}
 	 	attempt ++
  	}
-	alert("You Did it, CONGRATS!!!!");
-	document.write("Congratulations!!!, You had sucessfully did it in " + attempt + " steps");
+	alert("You Did it. CONGRATS!!!!");
+	document.write("Congratulations!!! You had sucessfully guessed in " + attempt + " attempts.");
 	var choice = confirm("Do you want to play again??");
 	if(choice == true){
 		window.location = "index.html";
